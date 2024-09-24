@@ -1,2 +1,2 @@
 # git_p
-practise-git
+practise-git #del
