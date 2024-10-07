@@ -13,7 +13,7 @@ pipeline {
             steps {
                 catchError(buildResult: 'UnSTABLE', stageResult: 'FAILURE') {
                     sh 'echo "build stage"; sleep5'
-                    // sleep command will will fails                  
+                    // correct sleep command                  
                 }
             }
         }
